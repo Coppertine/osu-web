@@ -21,7 +21,7 @@
     <div class="navbar-mobile" role="navigation">
         <div class="navbar-mobile__header-section">
             <a class="navbar-mobile__logo" href="{{ route('home') }}"></a>
-            <span class="navbar-mobile__brand u-ellipsis-overflow">
+            <span class="navbar-mobile__brand u-ellipsis-overflow" href="{{ route(trans("layout.menu.$currentSection.$currentAction")) }}">
                 {{ trans("layout.menu.$currentSection.$currentAction") }}
             </span>
         </div>
